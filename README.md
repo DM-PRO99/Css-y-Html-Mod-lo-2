@@ -12,7 +12,7 @@ Este proyecto es un portafolio personal,desarrollado como parte de la prueba de 
 
 ## Páginas
 - `index.html` - Página principal
-- `about.html` - Sobre mí
+- `about.html` - Sobre quien soy.
 - `portfolio.html` - Proyectos
 - `contact.html` - Formulario de contacto
 
@@ -22,5 +22,11 @@ Este proyecto es un portafolio personal,desarrollado como parte de la prueba de 
 - **Correo:** diegomena903@gmail.com
 - **Documento de identidad:** 1109290022
 
+## Cómo ver el proyecto
+1. Repositorio:https://github.com/DM-PRO99/Css-y-Html-Mod-lo-2
+  
+2. Abre `index.html` en tu navegador.
+
+3. 
 ## Recursos gráficos
 Todos los archivos de imagen se encuentran en la carpeta `img/`.
