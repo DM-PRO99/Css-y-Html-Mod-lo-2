@@ -24,9 +24,6 @@ Este proyecto es un portafolio personal,desarrollado como parte de la prueba de 
 
 ## Cómo ver el proyecto
 1. Repositorio:https://github.com/DM-PRO99/Css-y-Html-Mod-lo-2
-  
-2. Abre `index.html` en tu navegador.
 
-3. 
 ## Recursos gráficos
 Todos los archivos de imagen se encuentran en la carpeta `img/`.
