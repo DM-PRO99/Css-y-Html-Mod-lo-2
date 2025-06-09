@@ -1,0 +1,126 @@
+/*structure and source*/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/*I adjust the image with the alignment and background color*/
+
+.image {
+  display: block;
+  text-align: center;
+  background-color:  #84b6f4;
+  margin: 0;
+  border:1px solid#444;
+}
+
+/*I organize the features of the about me bar with its color and everything else.*/
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background: #84b6f4;
+  padding: 1em;
+}
+
+/*I arrange the decoration and transition of about me and projects.*/
+nav ul li a {
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+nav ul li a:hover {
+  background: #444;
+  border-radius: 5px;
+}
+
+
+/*CLass father of tarjets*/
+.cards {
+  display: flex;
+}
+
+
+.card {
+  flex: 50%;
+  margin:10px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .content {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.card .footer {
+  background-color: #84b6f4;
+  padding: 10px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4em 1 em;
+  background-color: #444;
+  color: aliceblue;
+}
+
+.cards {
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+
+.cards:hover{
+  transform: scale(1.03);
+}
+.Me {
+  text-align: center;
+  padding: 4em 1em;
+  background: #f5f5f5;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/*I style and transition the projects section.*/
+.proyect {
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+.proyect:hover {
+  transform: scale(1.03); /*allows you to scale or resize an element, enlarging or reducing its size*/
+}
+
+/*instructions to make it responsive.*/
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;  /*means that an element will become a "grid container", allowing its child elements to be organized in a row and column structure.*/
+    grid-template-columns: repeat(3, 1fr);  /*Specifies the configuration of columns, such as their width and how they are divided into the available horizontal space.*/
+    gap: 2em;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .grid {
+    display: grid;  /*means that an element will become a "grid container", allowing its child elements to be organized in a row and column structure.*/
+    grid-template-columns: repeat(2, 1fr);  /*Specifies the configuration of columns, such as their width and how they are divided into the available horizontal space.*/
+    gap: 1.5em;
+  }
+}
+@media (max-width: 767px) {
+  .grid {
+    display: block;  /*Defines how an element is displayed within a web design. This affects how other elements are stacked and presented around it.*/
+  }
+}
+/*It is organized with a grid because it is used to visually organize the elements of a web page or application, creating an orderly and consistent structure.*/
+
