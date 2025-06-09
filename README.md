@@ -1,7 +1,7 @@
 # Portafolio Personal - Prueba de Desempeño Módulo 2
 
 ## Descripción
-Este proyecto es un portafolio personal desarrollado como parte de la prueba de desempeño del Módulo 2 de HTML y CSS.
+Este proyecto es un portafolio personal,desarrollado como parte de la prueba de desempeño del Módulo 2 de HTML y CSS.
 
 ## Características
 - HTML semántico.
